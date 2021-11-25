@@ -1,4 +1,24 @@
 <?php
+//Begin Really Simple SSL session cookie settings
+@ini_set('session.cookie_httponly', true);
+@ini_set('session.cookie_secure', true);
+@ini_set('session.use_only_cookies', true);
+//END Really Simple SSL
+
+//Begin Really Simple SSL Load balancing fix
+if ((isset($_ENV["HTTPS"]) && ("on" == $_ENV["HTTPS"]))
+|| (isset($_SERVER["HTTP_X_FORWARDED_SSL"]) && (strpos($_SERVER["HTTP_X_FORWARDED_SSL"], "1") !== false))
+|| (isset($_SERVER["HTTP_X_FORWARDED_SSL"]) && (strpos($_SERVER["HTTP_X_FORWARDED_SSL"], "on") !== false))
+|| (isset($_SERVER["HTTP_CF_VISITOR"]) && (strpos($_SERVER["HTTP_CF_VISITOR"], "https") !== false))
+|| (isset($_SERVER["HTTP_CLOUDFRONT_FORWARDED_PROTO"]) && (strpos($_SERVER["HTTP_CLOUDFRONT_FORWARDED_PROTO"], "https") !== false))
+|| (isset($_SERVER["HTTP_X_FORWARDED_PROTO"]) && (strpos($_SERVER["HTTP_X_FORWARDED_PROTO"], "https") !== false))
+|| (isset($_SERVER["HTTP_X_PROTO"]) && (strpos($_SERVER["HTTP_X_PROTO"], "SSL") !== false))
+) {
+$_SERVER["HTTPS"] = "on";
+}
+//END Really Simple SSL
+
+define('WP_CACHE', true); // Added by WP Rocket
 /**
  * The base configuration for WordPress
  *
@@ -20,19 +40,19 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'database_name_here' );
+define( 'DB_NAME', 'wp_artenarvaez' );
 
 /** MySQL database username */
-define( 'DB_USER', 'username_here' );
+define( 'DB_USER', 'admin_wp_ar' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'password_here' );
+define( 'DB_PASSWORD', 'Mp410982183' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'db-wp-artenarvaez.c9c8cihqpue2.eu-west-1.rds.amazonaws.com' );
 
 /** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
+define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
@@ -48,14 +68,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define( 'AUTH_KEY',         'g|ekP ##8wcu44{_D;oO#K(8ZHVoRq$Cl_:-1~%Y:D`C<fju2#x(EwQCn&Q+ :eL' );
+define( 'SECURE_AUTH_KEY',  ']pTBFNhRF-znM5th??105!8v[5&?u,W%sUcw.7dM,[U&M<Qc:)5X$@zTdW=Q}ayR' );
+define( 'LOGGED_IN_KEY',    'b6XVA$c+o<r^B%-sR;4[ }]k|g_QY;rNj!(^QCnYP{?3]t4NrbjX0,`j~t_>,Rk^' );
+define( 'NONCE_KEY',        '>y<.kbw^dLDj!=riDyl}N:w$.ZBug3yW6x2 &(CT2cypf!TFx$U8p^ikwkQ@2+l,' );
+define( 'AUTH_SALT',        'Wv:rlcS$vCIk_v`@I9jp9}JDk3u 3FwWPvxNVa[[y@oI4W8$D]Uo9*UUXIE-N5~q' );
+define( 'SECURE_AUTH_SALT', 'TYEqC.0obC=L 97@}y0:d(J[P2FX]W_i%G_p0]GmX:,q@9F:&YB-K/ dpy1d+HWC' );
+define( 'LOGGED_IN_SALT',   '>!#-0p#?&{v{jk|>]_.7(wvhPW[K>3acA@PbBXM3EF^@0}r,k`xzqq#~N-rMLD*!' );
+define( 'NONCE_SALT',       'hS{-Ft!t=KjWYTgN>Kpgz8k<(Vxf@S>.SMz&DU}7qEvt^`WcR%MF8y1T=UadP)wQ' );
 
 /**#@-*/
 
