@@ -1,0 +1,660 @@
+/* bootsnav.css */
+
+nav.navbar.navbar-default.bootsnav.navbar-fixed-light a.navbar-brand::before,
+nav.navbar.bootsnav.active-bg ul.nav > li > a.active {
+    background: #FF512F !important;
+  } 
+
+nav.navbar.bootsnav ul.nav > li > a.active,
+.navbar.bootsnav.bg-theme .attr-nav li.quote-btn a,
+nav.navbar.bootsnav ul.nav > li.active > a,
+nav.navbar.bootsnav ul.nav > li > a:hover,
+nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover,
+nav.navbar.bootsnav ul.navbar-left li.dropdown ul.dropdown-menu li a:hover,
+nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:hover,
+nav.bootsnav.navbar-sidebar ul.nav > li > a:hover,
+nav.navbar.bootsnav ul.nav li.dropdown > ul.dropdown-menu li:hover > a,
+.attr-nav > ul > li.contact i,
+.attr-nav > ul.button > li > a,
+.attr-nav > ul > li.button a,
+.attr-nav.menu li:last-child a,
+.attr-nav.button li a i,
+.attr-nav > ul > li.button a {
+    color: #FF512F;
+  }
+
+nav.navbar.bootsnav.active-full ul.nav > li > a.active,
+nav.navbar.bootsnav.active-full ul.nav > li > a:hover {
+    background: #FF512F none repeat scroll 0 0 !important;
+  }
+
+/* style.css */
+
+.bg-theme {
+  background-color: #FF512F;
+}
+
+.gradient-bg {
+  background-color: #FF512F;
+}
+
+.shadow.theme::after {
+  background: #FF512F none repeat scroll 0 0;
+}
+
+.shadow.theme-hard::after {
+  background: #FF512F none repeat scroll 0 0;
+}
+
+.btn-gray.border {
+  color: #FF512F;
+}
+
+.btn-gray.border:hover {
+  background-color: #FF512F;
+  border: 2px solid #FF512F !important;
+}
+
+.btn-standard {
+  color: #FF512F;
+}
+
+.btn-standard::after {
+  background: #FF512F;
+}
+
+.btn-standard i {
+  color: #FF512F;
+}
+
+.bg-gradient {
+  background: #FF512F;
+}
+
+.btn-theme {
+  background-color: #FF512F;
+  border: 2px solid #FF512F;
+}
+
+.btn-theme.border {
+  border: 2px solid #FF512F !important;
+}
+
+.btn-theme.border:hover {
+  background-color: #FF512F;
+  border: 2px solid #FF512F;
+}
+
+.btn-theme.effect:hover, 
+ .btn-theme.effect:focus {
+  background: #FF512F none repeat scroll 0 0;
+  border: 2px solid #FF512F;
+}
+
+.btn-gradient::after {
+  box-shadow: 0 0 10px rgba(255, 136, 0, 0.5), inset 0 0 1px 1px #FF512F;
+}
+
+.attr-nav > a.btn-theme.effect:hover, 
+.attr-nav > a.btn-theme.effect, 
+.attr-nav > a.btn-theme.effect:focus {
+  background: #FF512F none repeat scroll 0 0;
+  border: 2px solid #FF512F;
+}
+
+.attr-nav.social li a {
+  color: #FF512F;
+}
+
+.site-heading h4 {
+  color: #FF512F;
+}
+
+.site-heading.clean h2 span {
+  color: #FF512F;
+}
+
+.site-heading h2 span {
+  color: #FF512F;
+}
+
+.site-heading h2::before {
+  background: #FF512F none repeat scroll 0 0;
+}
+
+.site-heading h2::after {
+  background: #FF512F none repeat scroll 0 0;
+}
+
+.site-heading h2 span {
+  color: #FF512F;
+}
+
+.heading-left h5 {
+  color: #FF512F;
+}
+
+.heading-left h5::after {
+  background: #FF512F;
+}
+
+.top-bar-area .info li i {
+  color: #FF512F;
+}
+
+.top-bar-area .info-colums ul li .icon i {
+  color: #FF512F;
+}
+
+.banner-area .carousel-control {
+  color: #FF512F;
+}
+
+
+.banner-area.text-color .content h2 strong {
+  color: #FF512F;
+}
+
+.banner-area .appoinment-box button {
+  background: #FF512F;
+}
+
+.banner-area .content .bottom .call-us h5 {
+  color: #FF512F;
+}
+
+.banner-area .content .bottom .call-us i {
+  background: #FF512F;
+}
+
+.banner-area .content .bottom .call-us i::after {
+  background: #FF512F;
+}
+
+.video-play-button {
+  color: #FF512F;
+}
+
+.video-play-button.theme:before,
+.video-play-button.theme:after {
+  background: #FF512F repeat scroll 0 0;
+}
+
+.video-play-button i {
+  color: #FF512F;
+}
+
+.about-area .info > h5 {
+  color: #FF512F;
+}
+
+.about-area .info > h5::after {
+  background: #FF512F;
+}
+
+.about-area .info ul li i {
+  color: #FF512F;
+}
+
+.about-area .info .progress-box .progress .progress-bar span {
+  background: #FF512F;
+}
+
+.about-area .info .progress-box .progress .progress-bar span::after {
+  border-top: 5px solid #FF512F;
+}
+
+.features-area .item > i {
+  color: #FF512F;
+}
+
+.feature-area .features-box .item .overlay .info > a {
+  color: #FF512F;
+}
+
+.top-features-area .item .icon i {
+  color: #FF512F;;
+}
+
+.top-features-area .item .icon i::after {
+  background: #FF512F;
+}
+
+.top-features-area .item .more a {
+    color: #FF512F;
+}
+
+.feature-area .feature-box .content .content-box {
+  border-left: 4px solid #FF512F;
+}
+
+.featured-services-area .item i {
+  color: #FF512F;
+}
+
+.featured-services-area .item::after {
+  background: #FF512F;
+}
+
+.choose-us-area .item .icon i {
+  color: #FF512F;
+}
+
+.choose-us-area .item a {
+  color: #FF512F;
+}
+
+.choose-us-area .item .call i {
+  color: #FF512F;
+}
+
+.work-process-area .work-pro-items .item i {
+  color: #FF512F;
+}
+
+.work-process-area .work-pro-items .item::before, 
+.work-process-area .work-pro-items .item::after {
+  background: #FF512F;
+}
+
+.work-process-area .work-pro-items .item .item-inner::before, 
+.work-process-area .work-pro-items .item .item-inner::after {
+  background: #FF512F;
+}
+
+.works-about-items .info > h5 {
+  color: #FF512F;
+}
+
+.works-about-items .info > h5::after {
+  background: #FF512F;
+}
+
+.works-about-items ul li::after {
+  color: #FF512F;
+}
+
+.services-area .services-items .item:hover .info > a {
+  background: #FF512F;
+}
+
+.services-area .services-items .item .icon > i {
+    color: #FF512F;
+}
+
+.services-area .services-tabs ul li a.active {
+  background: #FF512F;
+}
+
+.services-area .services-tabs ul li a.active::after {
+  background: #FF512F;
+}
+
+.services-area .services-tabs .info .content a {
+  color: #FF512F;
+}
+
+.services-area .services-tabs .info .content ul li::after {
+  color: #FF512F;
+}
+
+.service-area .service-box .item i {
+  color: #FF512F;
+}
+
+.service-area .service-box .item .icon::after {
+  background: #FF512F;
+}
+
+.services-details-area .content ul li::after {
+  color: #FF512F;
+}
+
+.services-details-area .sidebar-item .title h4::after {
+  background: #FF512F;
+}
+
+.services-details-area .sidebar-item.banner .thumb .content h3 i {
+  background: #FF512F;
+}
+
+.services-details-area .sidebar-item.banner .thumb .content h3 i::after {
+  background: #FF512F;
+}
+
+.services-details-area .sidebar-item.brochure a i {
+    color: #FF512F;
+}
+
+.case-studies-area .item .info .info-items .right-info a {
+  background: #FF512F;
+}
+
+.case-studies-area .owl-nav .owl-prev, 
+.case-studies-area .owl-nav .owl-next {
+  color: #FF512F;
+}
+
+.team-area .team-items .info span {
+  color: #FF512F;
+}
+
+.share-button {
+  color: #FF512F;
+}
+
+.team-single-area .social ul li a:hover {
+  background: #FF512F;
+}
+
+.team-single-area .content > span {
+  color: #FF512F;
+}
+
+.testimonials-area .thumb i {
+  background: #FF512F;
+}
+
+.testimonials-area .item::before {
+  border: 15px solid #FF512F;
+}
+
+.faq-area .info > h5 {
+  color: #FF512F;
+}
+
+.faq-area .info > h5::after {
+  background: #FF512F;
+}
+
+.faq-area .faq-content .card .card-header h4 strong {
+  background: #FF512F;
+}
+
+.faq-area .faq-content .card .card-header h4 strong::after {
+  background: #FF512F;
+}
+
+.blog-area a.btn-simple:hover {
+    color: #FF512F;
+}
+
+.blog-area .item .info .post-sticky span {
+  background: #FF512F;
+}
+
+.blog-area .info .cats a:hover {
+  color: #FF512F;
+}
+
+.blog-area .item .info ul li i {
+  color: #FF512F;
+}
+
+.blog-area .item .info h4 a:hover {
+  color: #FF512F;
+}
+
+.blog-area .info .meta a:hover {
+    color: #FF512F;
+}
+
+.btn-more:hover::after {
+  border-color: #FF512F;
+}
+
+a.btn-more:hover {
+  color: #FF512F;
+}
+
+.blog-area .item .info a.read-more:hover {
+  color: #FF512F;
+}
+
+.blog-area .thumb .cats a {
+  background: #FF512F;
+}
+
+.blog-area .sidebar .sidebar-item li a:hover {
+    color: #FF512F;
+}
+
+.blog-area .sidebar .title h4::after {
+  border-left: 3px solid #FF512F;
+}
+
+.blog-area .sidebar button[type="submit"] {
+  background: #FF512F;
+}
+
+.blog-area .sidebar input[type="submit"]:hover {
+  background: #FF512F none repeat scroll 0 0;
+}
+
+.blog-area .sidebar .sidebar-item li a:hover {
+  color: #FF512F;
+}
+
+.sidebar-item.recent-post .meta-title i {
+  color: #FF512F;
+}
+
+.sidebar-item.recent-post li a:hover {
+  color: #FF512F;
+}
+
+.sidebar-item.recent-post li span {
+  color: #FF512F;
+}
+
+.sidebar-item.tags ul li a:hover {
+  color: #FF512F;
+}
+
+.blog-area .sidebar .sidebar-item.add-banner .sidebar-info::after {
+  background: #FF512F;
+}
+
+.blog-area.single .item .content-box span {
+  background: #FF512F none repeat scroll 0 0;
+}
+
+.blog-area .item blockquote::before {
+  background: #FF512F;
+}
+
+.blog-area .blog-content .share li a {
+  color: #FF512F;
+}
+
+.blog-area.single .post-pagi-area a {
+  color: #FF512F;
+}
+
+.blog-area.single .post-pagi-area a:hover {
+  color: #FF512F;
+}
+
+.comments-list .commen-item .content .title span {
+  color: #FF512F;
+}
+
+.comments-info a:hover {
+    background: #FF512F;
+}
+
+.comments-form button {
+  background: #FF512F;
+}
+
+.comments-form button:hover {
+  background-color: #FF512F;
+}
+
+.pagination li a {
+  color: #FF512F;
+}
+
+.pagination li.page-item.active a {
+  background: #FF512F;
+  border-color: #FF512F;
+}
+
+.contact-area form button {
+  background: #FF512F;
+}
+
+.contact-area .contact-tabs > ul li a.active::after {
+  background: #FF512F;
+}
+
+.contact-area .contact-tabs > ul li a.active {
+  color: #FF512F;
+}
+
+.contact-tabs .tab-content ul li i {
+  color: #FF512F;
+}
+
+
+.error-box .search form button {
+  background: #FF512F;
+}
+
+footer form button {
+  background: #FF512F;
+}
+
+footer .f-item.link li a:hover {
+  color: #FF512F;
+}
+
+footer .f-item .download a i {
+  color: #FF512F;
+}
+
+.site-preloader .ring {
+  border-top-color: #FF512F;
+}
+
+.page-numbers {
+  color: #FF512F;
+}
+
+.blog-area .pagi-area .pagination li span {
+  background: #FF512F;
+  border-color: #FF512F;
+}
+
+#wp-calendar a, a:active, a:focus, a:hover {
+  color: #FF512F;
+}
+
+.wp-calendar-nav-prev a,
+.wp-calendar-nav-next a {
+  color: #FF512F;
+}
+
+.tagcloud a:hover {
+  color: #FF512F;
+}
+
+input[type="submit"],
+.wp-block-search__button{
+  background: #FF512F;
+}
+
+.button-fix {
+    background: #FF512F;
+}
+
+.widget_calendar caption {
+  color: #FF512F;
+}
+
+.widget_calendar a {
+  color: #FF512F;
+}
+
+.color-customizer a.opener {
+  background: #FF512F;
+}
+
+.color-customizer .text-theme {
+  color: #FF512F;
+}
+
+.testimonials-area .testimonial-items .owl-carousel .owl-dots .owl-dot.active span::after,
+.services-area .services-items.services-carousel.owl-carousel .owl-dot.active span::after {
+  background: #FF512F;
+}
+
+nav.navbar.bootsnav.bg-theme {
+  background: #FF512F;
+}
+
+.navbar .attr-nav form button {
+  background: #FF512F;
+}
+.banner-area.text-light .content h2 strong {
+  color: #fff;
+}
+/*Gradient*/
+
+.features-area .item-grid:first-child .item:first-child,
+.features-area .item-grid:last-child .item:last-child,
+.features-area .item-grid .item:hover {
+  background: linear-gradient(90deg, rgba(255,81,47,1) 0%, rgba(240,152,25,1) 100%);
+}
+
+.services-details-area .sidebar-item.link li a::before {
+  background: linear-gradient(90deg, rgba(255,81,47,1) 0%, rgba(240,152,25,1) 100%);
+}
+.bg-gradient {
+  background: linear-gradient(90deg, rgba(255,81,47,1) 0%, rgba(240,152,25,1) 100%);
+}
+
+.btn-gradient::after {
+  background: linear-gradient(90deg, rgba(255,81,47,1) 0%, rgba(240,152,25,1) 100%);
+}
+
+.breadcrumb-area.less-background {
+    background: linear-gradient(90deg, rgba(255,81,47,1) 0%, rgba(240,152,25,1) 100%);
+}
+
+
+.about-area .info .progress-box .progress .progress-bar {
+  background: linear-gradient(90deg, rgba(255,81,47,1) 0%, rgba(240,152,25,1) 100%);
+}
+
+.team-single-area .basic-info::after {
+  background: linear-gradient(90deg, rgba(255,81,47,1) 0%, rgba(240,152,25,1) 100%);
+}
+
+.faq-area .appoinment-form {
+  background: linear-gradient(90deg, rgba(255,81,47,1) 0%, rgba(240,152,25,1) 100%);
+}
+
+
+.feature-area .feature-box .item i {
+  background: linear-gradient(90deg, rgba(255,81,47,1) 0%, rgba(240,152,25,1) 100%);
+  -webkit-background-clip: text;
+}
+
+.service-area .service-items .item .info > i {
+  background: linear-gradient(90deg, rgba(255,81,47,1) 0%, rgba(240,152,25,1) 100%);
+  -webkit-background-clip: text;
+}
+
+.service-area .service-box .item::after {
+  background: linear-gradient(90deg, rgba(255,81,47,1) 0%, rgba(240,152,25,1) 48%);
+}
+
+.services-area .services-items .item::after {
+  background: linear-gradient(90deg, rgba(255,81,47,1) 0%, rgba(240,152,25,1) 48%);
+}
+
+.fun-factor-area .fun-fact .icon i {
+  background: linear-gradient(90deg,rgba(255,81,47,1) 0%, rgba(240,152,25,1) 75%);
+  -webkit-background-clip: text;
+}

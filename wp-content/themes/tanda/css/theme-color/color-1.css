@@ -1,0 +1,657 @@
+/* bootsnav.css */
+
+nav.navbar.navbar-default.bootsnav.navbar-fixed-light a.navbar-brand::before,
+nav.navbar.bootsnav.active-bg ul.nav > li > a.active {
+    background: #086AD8 !important;
+  } 
+
+nav.navbar.bootsnav ul.nav > li > a.active,
+.navbar.bootsnav.bg-theme .attr-nav li.quote-btn a,
+nav.navbar.bootsnav ul.nav > li.active > a,
+nav.navbar.bootsnav ul.nav > li > a:hover,
+nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover,
+nav.navbar.bootsnav ul.navbar-left li.dropdown ul.dropdown-menu li a:hover,
+nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:hover,
+nav.bootsnav.navbar-sidebar ul.nav > li > a:hover,
+nav.navbar.bootsnav ul.nav li.dropdown > ul.dropdown-menu li:hover > a,
+.attr-nav > ul > li.contact i,
+.attr-nav > ul.button > li > a,
+.attr-nav > ul > li.button a,
+.attr-nav.menu li:last-child a,
+.attr-nav.button li a i,
+.attr-nav > ul > li.button a {
+    color: #086AD8;
+  }
+
+nav.navbar.bootsnav.active-full ul.nav > li > a.active,
+nav.navbar.bootsnav.active-full ul.nav > li > a:hover {
+    background: #086AD8 none repeat scroll 0 0 !important;
+  }
+
+/* style.css */
+
+.bg-theme {
+  background-color: #086AD8;
+}
+
+.gradient-bg {
+  background-color: #086AD8;
+}
+
+.shadow.theme::after {
+  background: #086AD8 none repeat scroll 0 0;
+}
+
+.shadow.theme-hard::after {
+  background: #086AD8 none repeat scroll 0 0;
+}
+
+.btn-gray.border {
+  color: #086AD8;
+}
+
+.btn-gray.border:hover {
+  background-color: #086AD8;
+  border: 2px solid #086AD8 !important;
+}
+
+.btn-standard {
+  color: #086ad8;
+}
+
+.btn-standard::after {
+  background: #086AD8;
+}
+
+.btn-standard i {
+  color: #086AD8;
+}
+
+.bg-gradient {
+  background: #086AD8;
+}
+
+.btn-theme {
+  background-color: #086AD8;
+  border: 2px solid #086AD8;
+}
+
+.btn-theme.border {
+  border: 2px solid #086AD8 !important;
+}
+
+.btn-theme.border:hover {
+  background-color: #086AD8;
+  border: 2px solid #086AD8;
+}
+
+.btn-theme.effect:hover, 
+ .btn-theme.effect:focus {
+  background: #086AD8 none repeat scroll 0 0;
+  border: 2px solid #086AD8;
+}
+
+.btn-gradient::after {
+  box-shadow: 0 0 10px rgba(255, 136, 0, 0.5), inset 0 0 1px 1px #086AD8;
+}
+
+.attr-nav > a.btn-theme.effect:hover, 
+.attr-nav > a.btn-theme.effect, 
+.attr-nav > a.btn-theme.effect:focus {
+  background: #086AD8 none repeat scroll 0 0;
+  border: 2px solid #086AD8;
+}
+
+.attr-nav.social li a {
+  color: #086AD8;
+}
+
+.site-heading h4 {
+  color: #086AD8;
+}
+
+.site-heading.clean h2 span {
+  color: #086AD8;
+}
+
+.site-heading h2 span {
+  color: #086AD8;
+}
+
+.site-heading h2::before {
+  background: #086AD8 none repeat scroll 0 0;
+}
+
+.site-heading h2::after {
+  background: #086AD8 none repeat scroll 0 0;
+}
+
+.site-heading h2 span {
+  color: #086AD8;
+}
+
+.heading-left h5 {
+  color: #086AD8;
+}
+
+.heading-left h5::after {
+  background: #086AD8;
+}
+
+.top-bar-area .info li i {
+  color: #086AD8;
+}
+
+.top-bar-area .info-colums ul li .icon i {
+  color: #086AD8;
+}
+
+.banner-area .carousel-control {
+  color: #086AD8;
+}
+
+
+.banner-area.text-color .content h2 strong {
+  color: #086AD8;
+}
+
+.banner-area .appoinment-box button {
+  background: #086AD8;
+}
+
+.banner-area .content .bottom .call-us h5 {
+  color: #086AD8;
+}
+
+.banner-area .content .bottom .call-us i {
+  background: #086AD8;
+}
+
+.banner-area .content .bottom .call-us i::after {
+  background: #086AD8;
+}
+
+.video-play-button {
+  color: #086AD8;
+}
+
+.video-play-button.theme:before,
+.video-play-button.theme:after {
+  background: #086AD8 repeat scroll 0 0;
+}
+
+.video-play-button i {
+  color: #086AD8;
+}
+
+.about-area .info > h5 {
+  color: #086AD8;
+}
+
+.about-area .info > h5::after {
+  background: #086AD8;
+}
+
+.about-area .info ul li i {
+  color: #086AD8;
+}
+
+.about-area .info .progress-box .progress .progress-bar span {
+  background: #086AD8;
+}
+
+.about-area .info .progress-box .progress .progress-bar span::after {
+  border-top: 5px solid #086AD8;
+}
+
+.features-area .item > i {
+  color: #086AD8;
+}
+
+.feature-area .features-box .item .overlay .info > a {
+  color: #086AD8;
+}
+
+.top-features-area .item .icon i {
+  color: #086AD8;;
+}
+
+.top-features-area .item .icon i::after {
+  background: #086AD8;
+}
+
+.top-features-area .item .more a {
+    color: #086AD8;
+}
+
+.feature-area .feature-box .content .content-box {
+  border-left: 4px solid #086AD8;
+}
+
+.featured-services-area .item i {
+  color: #086AD8;
+}
+
+.featured-services-area .item::after {
+  background: #086AD8;
+}
+
+.choose-us-area .item .icon i {
+  color: #086AD8;
+}
+
+.choose-us-area .item a {
+  color: #086AD8;
+}
+
+.choose-us-area .item .call i {
+  color: #086AD8;
+}
+
+.work-process-area .work-pro-items .item i {
+  color: #086AD8;
+}
+
+.work-process-area .work-pro-items .item::before, 
+.work-process-area .work-pro-items .item::after {
+  background: #086AD8;
+}
+
+.work-process-area .work-pro-items .item .item-inner::before, 
+.work-process-area .work-pro-items .item .item-inner::after {
+  background: #086AD8;
+}
+
+.works-about-items .info > h5 {
+  color: #086AD8;
+}
+
+.works-about-items .info > h5::after {
+  background: #086AD8;
+}
+
+.works-about-items ul li::after {
+  color: #086AD8;
+}
+
+.services-area .services-items .item:hover .info > a {
+  background: #086AD8;
+}
+
+.services-area .services-items .item .icon > i {
+    color: #086AD8;
+}
+
+.services-area .services-tabs ul li a.active {
+  background: #086AD8;
+}
+
+.services-area .services-tabs ul li a.active::after {
+  background: #086AD8;
+}
+
+.services-area .services-tabs .info .content a {
+  color: #086AD8;
+}
+
+.services-area .services-tabs .info .content ul li::after {
+  color: #086AD8;
+}
+
+.service-area .service-box .item i {
+  color: #086AD8;
+}
+
+.service-area .service-box .item .icon::after {
+  background: #086AD8;
+}
+
+.services-details-area .content ul li::after {
+  color: #086AD8;
+}
+
+.services-details-area .sidebar-item .title h4::after {
+  background: #086AD8;
+}
+
+.services-details-area .sidebar-item.banner .thumb .content h3 i {
+  background: #086AD8;
+}
+
+.services-details-area .sidebar-item.banner .thumb .content h3 i::after {
+  background: #086AD8;
+}
+
+.services-details-area .sidebar-item.brochure a i {
+    color: #086AD8;
+}
+
+.case-studies-area .item .info .info-items .right-info a {
+  background: #086AD8;
+}
+
+.case-studies-area .owl-nav .owl-prev, 
+.case-studies-area .owl-nav .owl-next {
+  color: #086AD8;
+}
+
+.team-area .team-items .info span {
+  color: #086ad8;
+}
+
+.share-button {
+  color: #086AD8;
+}
+
+.team-single-area .social ul li a:hover {
+  background: #086AD8;
+}
+
+.team-single-area .content > span {
+  color: #086ad8;
+}
+
+.testimonials-area .thumb i {
+  background: #086AD8;
+}
+
+.testimonials-area .item::before {
+  border: 15px solid #086AD8;
+}
+
+.faq-area .info > h5 {
+  color: #086AD8;
+}
+
+.faq-area .info > h5::after {
+  background: #086AD8;
+}
+
+.faq-area .faq-content .card .card-header h4 strong {
+  background: #086AD8;
+}
+
+.faq-area .faq-content .card .card-header h4 strong::after {
+  background: #086AD8;
+}
+
+.blog-area a.btn-simple:hover {
+    color: #086ad8;
+}
+
+.blog-area .item .info .post-sticky span {
+  background: #086ad8;
+}
+
+.blog-area .info .cats a:hover {
+  color: #086AD8;
+}
+
+.blog-area .item .info ul li i {
+  color: #086AD8;
+}
+
+.blog-area .item .info h4 a:hover {
+  color: #086AD8;
+}
+
+.blog-area .info .meta a:hover {
+    color: #086AD8;
+}
+
+.btn-more:hover::after {
+  border-color: #086AD8;
+}
+
+a.btn-more:hover {
+  color: #086AD8;
+}
+
+.blog-area .item .info a.read-more:hover {
+  color: #086AD8;
+}
+
+.blog-area .thumb .cats a {
+  background: #086AD8;
+}
+
+.blog-area .sidebar .sidebar-item li a:hover {
+    color: #086ad8;
+}
+
+.blog-area .sidebar .title h4::after {
+  border-left: 3px solid #086AD8;
+}
+
+.blog-area .sidebar button[type="submit"] {
+  background: #086ad8;
+}
+
+.blog-area .sidebar input[type="submit"]:hover {
+  background: #086AD8 none repeat scroll 0 0;
+}
+
+.blog-area .sidebar .sidebar-item li a:hover {
+  color: #086AD8;
+}
+
+.sidebar-item.recent-post .meta-title i {
+  color: #086AD8;
+}
+
+.sidebar-item.recent-post li a:hover {
+  color: #086AD8;
+}
+
+.sidebar-item.recent-post li span {
+  color: #086AD8;
+}
+
+.sidebar-item.tags ul li a:hover {
+  color: #086AD8;
+}
+
+.blog-area .sidebar .sidebar-item.add-banner .sidebar-info::after {
+  background: #086AD8;
+}
+
+.blog-area.single .item .content-box span {
+  background: #086AD8 none repeat scroll 0 0;
+}
+
+.blog-area .item blockquote::before {
+  background: #086AD8;
+}
+
+.blog-area .blog-content .share li a {
+  color: #086AD8;
+}
+
+.blog-area.single .post-pagi-area a {
+  color: #086ad8;
+}
+
+.blog-area.single .post-pagi-area a:hover {
+  color: #086AD8;
+}
+
+.comments-list .commen-item .content .title span {
+  color: #086ad8;
+}
+
+.comments-info a:hover {
+    background: #086ad8;
+}
+
+.comments-form button {
+  background: #086AD8;
+}
+
+.comments-form button:hover {
+  background-color: #086AD8;
+}
+
+.pagination li a {
+  color: #086AD8;
+}
+
+.pagination li.page-item.active a {
+  background: #086AD8;
+  border-color: #086AD8;
+}
+
+.contact-area form button {
+  background: #086ad8;
+}
+
+.contact-area .contact-tabs > ul li a.active::after {
+  background: #086AD8;
+}
+
+.contact-area .contact-tabs > ul li a.active {
+  color: #086AD8;
+}
+
+.contact-tabs .tab-content ul li i {
+  color: #086AD8;
+}
+
+
+.error-box .search form button {
+  background: #086AD8;
+}
+
+footer form button {
+  background: #086AD8;
+}
+
+footer .f-item.link li a:hover {
+  color: #086AD8;
+}
+
+footer .f-item .download a i {
+  color: #086AD8;
+}
+
+.site-preloader .ring {
+  border-top-color: #086ad8;
+}
+
+.page-numbers {
+  color: #086AD8;
+}
+
+.blog-area .pagi-area .pagination li span {
+  background: #086AD8;
+  border-color: #086AD8;
+}
+
+#wp-calendar a, a:active, a:focus, a:hover {
+  color: #086AD8;
+}
+
+.wp-calendar-nav-prev a,
+.wp-calendar-nav-next a {
+  color: #086AD8;
+}
+
+.tagcloud a:hover {
+  color: #086AD8;
+}
+
+input[type="submit"],
+.wp-block-search__button{
+  background: #086AD8;
+}
+
+.button-fix {
+    background: #086AD8;
+}
+
+.widget_calendar caption {
+  color: #086AD8;
+}
+
+.widget_calendar a {
+  color: #086AD8;
+}
+
+.color-customizer a.opener {
+	background: #086AD8;
+}
+
+.color-customizer .text-theme {
+	color: #086AD8;
+}
+
+.testimonials-area .testimonial-items .owl-carousel .owl-dots .owl-dot.active span::after,
+.services-area .services-items.services-carousel.owl-carousel .owl-dot.active span::after {
+  background: #086AD8;
+}
+
+nav.navbar.bootsnav.bg-theme {
+    background: #086AD8;
+}
+
+.navbar .attr-nav form button {
+  background: #086AD8;
+}
+
+.banner-area.text-light .content h2 strong {
+  color: #fff;
+}
+/*Gradient*/
+
+.features-area .item-grid:first-child .item:first-child,
+.features-area .item-grid:last-child .item:last-child,
+.features-area .item-grid .item:hover {
+  background: linear-gradient(90deg, rgba(8,106,216,1) 0%, rgba(10,60,116,1) 100%);
+}
+
+.services-details-area .sidebar-item.link li a::before {
+  background: linear-gradient(90deg, rgba(8,106,216,1) 0%, rgba(10,60,116,1) 100%);
+}
+
+.bg-gradient {
+  background: linear-gradient(90deg, rgba(9,70,139,1) 0%, rgba(30,132,246,1) 100%);
+}
+
+.btn-gradient::after {
+  background: linear-gradient(90deg, rgba(9,70,139,1) 0%, rgba(30,132,246,1) 100%);
+}
+
+.breadcrumb-area.less-background {
+    background: linear-gradient(90deg, rgba(9,70,139,1) 0%, rgba(30,132,246,1) 100%);
+}
+
+
+.about-area .info .progress-box .progress .progress-bar {
+  background: linear-gradient(90deg, rgba(9,70,139,1) 0%, rgba(30,132,246,1) 100%);
+}
+
+.team-single-area .basic-info::after {
+  background: linear-gradient(90deg, rgba(9,70,139,1) 0%, rgba(30,132,246,1) 100%);
+}
+
+.faq-area .appoinment-form {
+  background: linear-gradient(90deg, rgba(9,70,139,1) 0%, rgba(30,132,246,1) 100%);
+}
+
+
+.feature-area .feature-box .item i {
+  background: linear-gradient(90deg, rgba(3,25,65,1) 0%, rgba(67,126,235,1) 100%);
+  -webkit-background-clip: text;
+}
+
+.service-area .service-items .item .info > i {
+  background: linear-gradient(90deg, rgba(3,25,65,1) 0%, rgba(67,126,235,1) 100%);
+  -webkit-background-clip: text;
+}
+
+.service-area .service-box .item::after {
+  background: linear-gradient(90deg, rgba(4,45,92,1) 0%, rgba(63,146,240,1) 48%);
+}
+
+.services-area .services-items .item::after {
+  background: linear-gradient(90deg, rgba(4,45,92,1) 0%, rgba(63,146,240,1) 48%);
+}
